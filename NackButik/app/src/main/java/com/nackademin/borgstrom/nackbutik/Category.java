@@ -18,4 +18,8 @@ public class Category {
     public String toString() {
         return name;
     }
+
+    public int getId() {
+        return id;
+    }
 }

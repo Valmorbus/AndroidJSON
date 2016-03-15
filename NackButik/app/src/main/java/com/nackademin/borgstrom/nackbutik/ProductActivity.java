@@ -61,6 +61,7 @@ public class ProductActivity extends AppCompatActivity {
 
 
         queue.add(jsObjRequest);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
 }
